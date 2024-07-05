@@ -1,0 +1,113 @@
+/* src/Signup.css */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e01111;
+  position: absolute;
+  overflow: hidden;
+  width: 900px;
+  margin-left: 400px;
+  background-image: url("D:\1StudyMaterial\Project\signup-form\Frontend\public\back2.jpg");
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  max-width: 90%;
+  position: relative;
+  z-index: 1;
+  background-image: url("D:\1StudyMaterial\Project\signup-form\Frontend\public\back2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.signup-form h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.signup-form .input-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+
+.signup-form .icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.signup-form .toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form .login-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.signup-form .login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-form .login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Background shapes */
+.shape {
+  position: absolute;
+  background: #f0f0f0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: -50px;
+  left: -50px;
+  z-index: 0;
+}
+
+.shape:nth-child(2) {
+  top: auto;
+  bottom: -50px;
+  left: auto;
+  right: -50px;
+}
